@@ -1,0 +1,27 @@
+~ SBB Computer by Charles Benoit ~
+
+To do:
+    [ ] ldb instruction to load value from address into B reg
+    [ ] Keyboard input feature
+    [ ] custom function addresses
+    [ ] rework program assembling
+
+UPDATE NOTES:
+-------------
+1.1.2 (Nov. 3rd 2024):
+    - Added ldib instruction to load immediate into B reg
+    - Added incb instruction to increment B reg
+    - Added xor# instruction
+    - Added scp instruction to change screen pointer value
+    - Fixed buggy strings when using \"
+1.1.1 (Nov. 1st 2024):
+    - Added refresh instruction
+    - Modified ldax instruction to take in B reg as an offset
+1.1.0 (Oct. 30th 2024):
+    - Added screen connected to RAM address 0x400 to 0x4ff
+1.0.1 (Oct. 28th 2024):
+    - Fixed line pointers for array data values
+    - Reduced the number of control wires in ALU
+    - added NOT instruction
+    - Created an ldax instruction
+    - Added string support in SBBasm
